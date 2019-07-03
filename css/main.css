@@ -146,7 +146,7 @@ footer p {
 
 #welcome a:hover {
 	transition: 0.5s;
- box-shadow: var(--boxShadow);
+ box-shadow: var(--standardBoxShadow);
 }
 
 /*LO QUE HAGO*/
@@ -170,7 +170,7 @@ flex-direction: column;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	box-shadow: var(--boxShadow);
+	box-shadow: var(--standardBoxShadow);
 	padding: 2rem;
 	border-radius: 1rem;
 }
