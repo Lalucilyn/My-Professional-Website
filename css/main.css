@@ -178,7 +178,7 @@ footer p {
  margin: 1rem 0;
 }
 
-#work div article p:first-child {
+#work div article img {
  margin-top: 0;
  font-size: 4rem;
  background: #ff5252;
@@ -189,16 +189,7 @@ footer p {
  align-items: center;
  justify-content: center;
  border-radius: 50%;
-}
-
-#work div article:last-child p:first-child {
- background-image: url('../img/editpic.jpg');
- background-size: cover;
-}
-
-#work div article:first-child p:first-child {
- background-image: url('../img/devpic.jpg');
- background-size: cover;
+ object-fit: cover;
 }
 
 /*CONTACTO*/
@@ -301,30 +292,3 @@ footer p {
  }
 }
 
-/*ANIMACIONES*/
-
-.slideDown {
- animation: slideDown 1s;
-}
-
-.slideUp {
- animation: slideUp 1s;
-}
-@keyframes slideDown {
- 0% { 
-  transform: translateY(-100%);
- }
-
- 100% { 
-  transform: translateY(0%) 
- }
-}
-
-@keyframes slideUp {
- 0% {
-  transform: translateY(100%);
- }
- 100% {
-  transform: translateY(0%);
- }
-}

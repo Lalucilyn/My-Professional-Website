@@ -1,0 +1,70 @@
+/*ANIMACIONES*/
+
+.slideDown {
+ animation: slideDown 1.5s;
+}
+
+.slideUp {
+ animation: slideUp 1.5s;
+}
+
+
+.colorChange {
+	animation: colorChange 8s infinite;
+}
+/*.opacity {
+  opacity: 0;
+  animation: opacity 2s;
+
+  animation-fill-mode: forwards;
+}*/
+
+@keyframes slideDown {
+ 0% { 
+  transform: translateY(-100%);
+ }
+
+ 100% { 
+  transform: translateY(0%) 
+ }
+}
+
+@keyframes slideUp {
+ 0% {
+  transform: translateY(100%);
+ }
+ 100% {
+  transform: translateY(0%);
+ }
+}
+
+@keyframes opacity {
+ 0% {
+  opacity: 0;
+ }
+
+ 100% {
+  opacity: 1;
+ }
+}
+
+@keyframes colorChange {
+	0% {
+		color: #ffd6d6;
+	}
+	20% {
+		color: #faffb0;
+	}
+	40% {
+		color: #c0ffb6;
+	}
+	60% {
+		color: #d0ddff;
+	}
+	80% {
+		color: #e1bfff;
+	}
+	100% {
+		color: #ffd6d6;
+	}
+}
