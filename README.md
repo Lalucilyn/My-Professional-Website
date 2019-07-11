@@ -1,7 +1,7 @@
 # 🍰 My-Professional-Website 🍰
 
 ## You can see a live demo here:
-https://luciawainfeld.now.sh/
+https://wainfeldsample.now.sh
 
 ## Overview
 Landing page with my main professional information. Made deliberately with just HTML5 and CSS3. 
